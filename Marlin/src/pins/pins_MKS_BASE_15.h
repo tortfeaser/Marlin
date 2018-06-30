@@ -29,6 +29,26 @@
 /**
  * Microstepping pins
  */
+#define X_MS1_PIN            5
+#define X_MS2_PIN            6
+#define Y_MS1_PIN           59
+#define Y_MS2_PIN           58
+#define Z_MS1_PIN           22
+#define Z_MS2_PIN           39
+#define E0_MS1_PIN          70
+#define E0_MS2_PIN          70
+#define E1_MS1_PIN          63
+#define E1_MS2_PIN          64
+
+// MDK added below, and changed E0 to 70, and E1 to what was E0
+#define E2_MS1_PIN          57
+#define E2_MS2_PIN           4
+
+// MDK the above was as below. Doesn't compile, apparently Arduino doesn't like comments after pin definitions for non-analogue pins
+// See https://github.com/MarlinFirmware/Marlin/issues/9794
+
+/**
+ * Microstepping pins
 #define X_MS1_PIN            5   // Digital 3  / Pin 5   / PE3  / SERVO2_PIN
 #define X_MS2_PIN            6   // Digital 6  / Pin 14  / PH3  / SERVO1_PIN
 #define Y_MS1_PIN           59   // Analog 5   / Pin 92  / PF5
@@ -39,3 +59,4 @@
 #define E0_MS2_PIN          64   // Analog 10  / Pin 87  / PK2
 #define E1_MS1_PIN          57   // Analog 3   / Pin 93  / PF3
 #define E1_MS2_PIN           4   // Digital 4  / Pin 1   / PG5  / SERVO3_PIN
+ */
