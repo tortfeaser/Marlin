@@ -20,6 +20,7 @@
  *
  */
 
+
 /**
  * MDK edits to suit V1E Lowrider CNC with MKS Base v 1.5 board, 2 x X steppers, 2 x Z steppers
  */
@@ -512,9 +513,9 @@
 // Specify here all the endstop connectors that are connected to any endstop or probe.
 // Almost all printers will be using one per axis. Probes will use one or more of the
 // extra connectors. Leave undefined any used for non-endstop and non-probe purposes.
-//#define USE_XMIN_PLUG  // MDK was #define...
-//#define USE_YMIN_PLUG  // MDK was #define...
-//#define USE_ZMIN_PLUG  // MDK was #define...
+#define USE_XMIN_PLUG
+#define USE_YMIN_PLUG
+#define USE_ZMIN_PLUG
 //#define USE_XMAX_PLUG
 //#define USE_YMAX_PLUG
 //#define USE_ZMAX_PLUG
