@@ -21,6 +21,10 @@
  */
 
 /**
+ * MDK tried this 2.08pm 010718 to fix Z2 motor issue.
+ */
+
+/**
  * Configuration.h
  *
  * Basic settings such as:
